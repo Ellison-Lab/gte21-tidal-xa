@@ -13,11 +13,15 @@ FTP = FTPRemoteProvider()
 singularity: "docker://continuumio/miniconda3"
 configfile: "config/config.yaml"
 
+MAIN_CONFIG = config.get("MAIN_CONFIG",'config/config.yaml')
+
 subworkflow gep:
     workdir:
         "../../gte21-ica-grid/"
     snakefile:
         "../../gte21-ica-grid/workflow/Snakefile"
+    configfile:
+        MAIN_CONFIG
 
 rule all:
     input:
