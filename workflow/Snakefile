@@ -93,7 +93,7 @@ rule unzip_tidal_anno:
 rule tidal_xa_ratio:
     input:
         sizes = rules.unzip_tidal_anno.output.sizes,
-        dgrp =  rules. unzip_dgrp.output,
+        dgrp =  rules.unzip_dgrp.output,
         geps = lambda wc: gep("results/gep/{g}/optimal/consensus-ica-modules.json".format(g=wc.group)),
         lookup = 'resources/te_id_lookup.curated.tsv.txt',
     output:
