@@ -12,7 +12,6 @@ FTP = FTPRemoteProvider()
 
 singularity: "docker://continuumio/miniconda3"
 configfile: "config/config.yaml"
-pepfile: "config/pep.yaml"
 
 subworkflow gep:
     workdir:
