@@ -1,0 +1,246 @@
+merged_te	component	gene_id	Flybase_name	Class	repClass	repFamily	Blast_candidate	query_cover	pct_ident	note
+MARINA	NA	MARINA	NA	NA	NA	NA	NA			
+NOF_FB	NA	NOF_FB	NA	NA	NA	NA	NA			
+PLACW_DM	NA	PLACW_DM	P-element	DNA-IR	DNA	P				
+PROTOP	NA	PROTOP	1360	DNA-IR	DNA	P				
+PROTOP_A	NA	PROTOP_A	1360	DNA-IR	DNA	P				
+PROTOP_B	NA	PROTOP_B	1360	DNA-IR	DNA	P				
+P_DB	NA	P_DB	NA	NA	NA	NA	P-element	100	79.87	in_tidal
+P_DG	NA	P_DG	NA	NA	NA	NA	NA			
+LOOPER1_DM	NA	LOOPER1_DM	looper1	DNA-IR	DNA	PiggyBac				
+POGO	NA	POGO	pogo	DNA-IR	DNA	TcMar-Pogo				
+POGON1	NA	POGON1	pogo	DNA-IR	DNA	TcMar-Pogo				
+BARI1	NA	BARI1	Bari2	DNA-IR	DNA	TcMar-Tc1				
+BARI_DM	NA	BARI_DM	Bari1	DNA-IR	DNA	TcMar-Tc1				
+FB4_DM	NA	FB4_DM	HB	DNA-IR	DNA	TcMar-Tc1				maps to multiple
+FB4_DM	NA	FB4_DM	NOF	DNA-IR	DNA	TcMar-Tc1				maps to multiple
+FB4_DM	NA	FB4_DM	FB	Foldback	DNA	TcMar-Tc1				maps to multiple
+MINOS	NA	MINOS	NA	NA	NA	NA	Minos	99	99	*not in TIDAL
+Mariner2_DM	NA	Mariner2_DM	mariner2	DNA-IR	DNA	TcMar-Tc1				
+Mariner_DMA	NA	Mariner_DMA	NA	NA	NA	NA	mariner	100	100	*not in TIDAL
+PARIS	NA	PARIS	NA	NA	NA	NA	Paris	100	100	*not in TIDAL
+S2_DM	NA	S2_DM	S2	DNA-IR	DNA	TcMar-Tc1				
+S_DM	NA	S_DM	S-element	DNA-IR	DNA	TcMar-Tc1				
+TC1-2_DM	NA	TC1-2_DM	Tc1-2	DNA-IR	DNA	TcMar-Tc1				
+TC1_DM	NA	TC1_DM	Tc1	DNA-IR	DNA	TcMar-Tc1				
+UHU	NA	UHU	NA	NA	NA	NA	uhu	100	95	*not in TIDAL
+M4DM	NA	M4DM	hopper	DNA-IR	DNA	CMC-Transib				
+M4DM	NA	M4DM	hopper2	DNA-IR	DNA	CMC-Transib				
+TRANSIB1	NA	TRANSIB1	transib1	DNA-IR	DNA	CMC-Transib				
+TRANSIB2	NA	TRANSIB2	transib2	DNA-IR	DNA	CMC-Transib				
+TRANSIB3	NA	TRANSIB3	transib3	DNA-IR	DNA	CMC-Transib				
+TRANSIB4	NA	TRANSIB4	transib4	DNA-IR	DNA	CMC-Transib				
+Transib-N1_DM	NA	Transib-N1_DM	Transib-N1_DM	NA	DNA	CMC-Transib				
+HOBO	NA	HOBO	hobo	DNA-IR	DNA	hAT-hobo				
+DMCR1A	NA	DMCR1A	Cr1a	retro-Non-LTR	LINE	CR1				
+DMCR1A	NA	DMCR1A	Q-element	retro-Non-LTR	LINE	CR1				
+CIRCE	NA	CIRCE	Circe	retro-LTR	LTR	Gypsy				
+IVK_DM	NA	IVK_DM	Ivk	retro-Non-LTR	LINE	I				
+I_DM	NA	I_DM	I-element	retro-Non-LTR	LINE	I				
+BS	NA	BS	BS	retro-Non-LTR	LINE	Jockey				
+BS2	NA	BS2	X-element	retro-Non-LTR	LINE	Jockey				
+BS3_DM	NA	BS3_DM	BS3	retro-Non-LTR	LINE	Jockey				
+BS4_DM	NA	BS4_DM	BS4	retro-Non-LTR	LINE	Jockey				
+DOC	NA	DOC	Doc	retro-Non-LTR	LINE	Jockey				
+DOC2_DM	NA	DOC2_DM	Doc2-element	retro-Non-LTR	LINE	Jockey				
+DOC3_DM	NA	DOC3_DM	Doc3-element	retro-Non-LTR	LINE	Jockey				
+DOC4_DM	NA	DOC4_DM	Doc4-element	retro-Non-LTR	LINE	Jockey				
+DOC5_DM	NA	DOC5_DM	Porto1	retro-Non-LTR	LINE	Jockey				
+DOC6_DM	NA	DOC6_DM	Juan	retro-Non-LTR	LINE	Jockey				
+FW2_DM	NA	FW2_DM	Fw2	retro-Non-LTR	LINE	Jockey				
+FW3_DM	NA	FW3_DM	Fw3	retro-Non-LTR	LINE	Jockey				
+FW_DM	NA	FW_DM	F-element	retro-Non-LTR	LINE	Jockey				
+G2_DM	NA	G2_DM	G2	retro-Non-LTR	LINE	Jockey				
+G3_DM	NA	G3_DM	G3	retro-Non-LTR	LINE	Jockey				
+G4_DM	NA	G4_DM	G4	retro-Non-LTR	LINE	Jockey				
+G5A_DM	NA	G5A_DM	G5A	retro-Non-LTR	LINE	Jockey				
+G5_DM	NA	G5_DM	G5	retro-Non-LTR	LINE	Jockey				
+G6_DM	NA	G6_DM	G6	retro-Non-LTR	LINE	Jockey				
+G7_DM	NA	G7_DM	G7	retro-Non-LTR	LINE	Jockey				
+G_DM	NA	G_DM	G-element	retro-Non-LTR	LINE	Jockey				
+HELENA_RT	NA	HELENA_RT	Helena	retro-Non-LTR	LINE	Jockey				
+Jockey2	NA	Jockey2	jockey2	retro-Non-LTR	LINE	Jockey				
+Jockey	NA	Jockey	NA	NA	NA	NA				
+Baggins1	NA	Baggins1	baggins	retro-Non-LTR	LINE	LOA				
+Bilbo	NA	Bilbo	NA	NA	NA	NA				
+TRIM	NA	TRIM	NA	NA	NA	NA				
+DNAREP1_DM	NA	DNAREP1_DM	INE-1	retro-SINE	RC	Helitron				
+DMRT1A	NA	DMRT1A	Rt1a	retro-Non-LTR	LINE	R1				
+DMRT1B	NA	DMRT1B	Rt1c	retro-Non-LTR	LINE	R1				
+DMRT1C	NA	DMRT1C	Rt1b	retro-Non-LTR	LINE	R1				
+R1-2_DM	NA	R1-2_DM	R1-2	retro-Non-LTR	LINE	R1				
+R1_DM	NA	R1_DM	R1A1-element	retro-Non-LTR	LINE	R1				
+R2_DM	NA	R2_DM	R2-element	retro-Non-LTR	LINE	R2				
+HETA	NA	HETA	HeT-A	retro-Non-LTR	LINE	Jockey				
+TART_B1	NA	TART_B1	TART-B	retro-Non-LTR	LINE	Jockey				
+Copia2	2	Copia2_I	Dm88	retro-LTR	LTR	Copia				
+Copia2	1	Copia2_LTR_DM	Dm88	retro-LTR	LTR	Copia				
+Copia	2	Copia_I	copia	retro-LTR	LTR	Copia				
+Copia	1	Copia_LTR	copia	retro-LTR	LTR	Copia				
+DM1731	2	DM1731_I	1731	retro-LTR	LTR	Copia				
+DM1731	1	DM1731_LTR	1731	retro-LTR	LTR	Copia				
+ACCORD2	2	ACCORD2_I	accord2	retro-LTR	LTR	Gypsy				
+ACCORD2	1	ACCORD2_LTR	accord2	retro-LTR	LTR	Gypsy				
+ACCORD	2	ACCORD_I	accord	retro-LTR	LTR	Gypsy				
+ACCORD	1	ACCORD_LTR	accord	retro-LTR	LTR	Gypsy				
+BLASTOPIA	2	BLASTOPIA_I	flea	retro-LTR	LTR	Gypsy				
+BLASTOPIA	1	BLASTOPIA_LTR	flea	retro-LTR	LTR	Gypsy				
+BLOOD	2	BLOOD_I	blood	retro-LTR	LTR	Gypsy				
+BLOOD	1	BLOOD_LTR	blood	retro-LTR	LTR	Gypsy				
+BURDOCK	2	BURDOCK_I	Burdock	retro-LTR	LTR	Gypsy				
+BURDOCK	1	BURDOCK_LTR	Burdock	retro-LTR	LTR	Gypsy				
+DM176	2	DM176_I	17.6	retro-LTR	LTR	Gypsy				
+DM176	1	DM176_LTR	17.6	retro-LTR	LTR	Gypsy				
+DM297	2	DM297_I	297	retro-LTR	LTR	Gypsy				
+DM297	1	DM297_LTR	297	retro-LTR	LTR	Gypsy				
+DM412	NA	DM412	412	retro-LTR	LTR	Gypsy				
+DM412B	1	DM412B_LTR	412	retro-LTR	LTR	Gypsy				
+DMLTR5	1	DMLTR5	HMS-Beagle	retro-LTR	LTR	Gypsy				
+DMTOM1	1	DMTOM1_LTR	Tom1	retro-LTR	LTR	Gypsy				
+GTWIN	2	GTWIN_I	gtwin	retro-LTR	LTR	Gypsy				
+GTWIN	1	GTWIN_LTR	gtwin	retro-LTR	LTR	Gypsy				
+Gypsy2	3	Gypsy2_I	gypsy2	retro-LTR	LTR	Gypsy				
+Gypsy2	1	Gypsy2_LTR	gypsy2	retro-LTR	LTR	Gypsy				
+Gypsy3	2	Gypsy3_I	gypsy3	retro-LTR	LTR	Gypsy				
+Gypsy3	1	Gypsy3_LTR	gypsy3	retro-LTR	LTR	Gypsy				
+Gypsy4	2	Gypsy4_I	gypsy4	retro-LTR	LTR	Gypsy				
+Gypsy4	1	Gypsy4_LTR	gypsy4	retro-LTR	LTR	Gypsy				
+Gypsy5	2	Gypsy5_I	gypsy5	retro-LTR	LTR	Gypsy				
+Gypsy5	1	Gypsy5_LTR	gypsy5	retro-LTR	LTR	Gypsy				
+Gypsy6A	1	Gypsy6A_LTR	Gypsy6A_LTR	retro-LTR	LTR	Gypsy				
+Gypsy6	2	Gypsy6_I	gypsy6	retro-LTR	LTR	Gypsy				
+Gypsy6	1	Gypsy6_LTR	gypsy6	retro-LTR	LTR	Gypsy				
+Gypsy7	2	Gypsy7_I	gypsy7	retro-LTR	LTR	Gypsy				
+Gypsy7	1	Gypsy7_LTR	gypsy7	retro-LTR	LTR	Gypsy				
+Gypsy8	2	Gypsy8_I	gypsy8	retro-LTR	LTR	Gypsy				
+Gypsy8	1	Gypsy8_LTR	gypsy8	retro-LTR	LTR	Gypsy				
+Gypsy9	2	Gypsy9_I	gypsy9	retro-LTR	LTR	Gypsy				
+Gypsy9	1	Gypsy9_LTR	gypsy9	retro-LTR	LTR	Gypsy				
+Gypsy10	2	Gypsy10_I	gypsy10	retro-LTR	LTR	Gypsy				
+Gypsy10	1	Gypsy10_LTR	gypsy10	retro-LTR	LTR	Gypsy				
+Gypsy11	2	Gypsy11_I	gypsy11	retro-LTR	LTR	Gypsy				
+Gypsy11	1	Gypsy11_LTR	gypsy11	retro-LTR	LTR	Gypsy				
+Gypsy12A	1	Gypsy12A_LTR	Gypsy12A_LTR	retro-LTR	LTR	Gypsy				
+Gypsy12	2	Gypsy12_I	gypsy12	retro-LTR	LTR	Gypsy				
+Gypsy12	1	Gypsy12_LTR	gypsy12	retro-LTR	LTR	Gypsy				
+Gypsy_DS	NA	Gypsy_DS	NA	NA	NA	NA	NA			
+Gypsy	2	Gypsy_I	gypsy	retro-LTR	LTR	Gypsy				
+Gypsy	1	Gypsy_LTR	gypsy	retro-LTR	LTR	Gypsy				
+HMSBEAGLE	1	HMSBEAGLE_I	HMS-Beagle	retro-LTR	LTR	Gypsy				
+IDEFIX	2	IDEFIX_I	Idefix	retro-LTR	LTR	Gypsy				
+IDEFIX	1	IDEFIX_LTR	Idefix	retro-LTR	LTR	Gypsy				
+Invader1	2	Invader1_I	invader1	retro-LTR	LTR	Gypsy				
+Invader1	1	Invader1_LTR	invader1	retro-LTR	LTR	Gypsy				
+Invader2	2	Invader2_I	invader2	retro-LTR	LTR	Gypsy				
+Invader2	1	Invader2_LTR	invader2	retro-LTR	LTR	Gypsy				
+Invader3	2	Invader3_I	invader3	retro-LTR	LTR	Gypsy				
+Invader3	1	Invader3_LTR	invader3	retro-LTR	LTR	Gypsy				
+Invader4	2	Invader4_I	invader4	retro-LTR	LTR	Gypsy				
+Invader4	1	Invader4_LTR	invader4	retro-LTR	LTR	Gypsy				
+Invader5	2	Invader5_I	invader5	retro-LTR	LTR	Gypsy				
+Invader5	1	Invader5_LTR	invader5	retro-LTR	LTR	Gypsy				
+Invader6	2	Invader6_I	invader6	retro-LTR	LTR	Gypsy				
+Invader6	1	Invader6_LTR	invader6	retro-LTR	LTR	Gypsy				
+MDG1	2	MDG1_I	mdg1	retro-LTR	LTR	Gypsy				
+MDG1	1	MDG1_LTR	mdg1	retro-LTR	LTR	Gypsy				
+MDG3	2	MDG3_I	mdg3	retro-LTR	LTR	Gypsy				
+MDG3	1	MDG3_LTR	mdg3	retro-LTR	LTR	Gypsy				
+MICROPIA	2	MICROPIA_I	micropia	retro-LTR	LTR	Gypsy				
+MICROPIA	1	MICROPIA_LTR	micropia	retro-LTR	LTR	Gypsy				
+NOMAD	2	NOMAD_I	opus	retro-LTR	LTR	Gypsy				
+NOMAD	1	NOMAD_LTR	opus	retro-LTR	LTR	Gypsy				
+OSVALDO	2	OSVALDO_I	Osvaldo	retro-LTR	LTR	Gypsy				
+OSVALDO	1	OSVALDO_LTR	Osvaldo	retro-LTR	LTR	Gypsy				
+QUASIMODO	2	QUASIMODO_I	Quasimodo	retro-LTR	LTR	Gypsy				
+QUASIMODO	1	QUASIMODO_LTR	Quasimodo	retro-LTR	LTR	Gypsy				
+ROVER	2	ROVER-I_DM	rover	retro-LTR	LTR	Gypsy				
+ROVER	1	ROVER-LTR_DM	rover	retro-LTR	LTR	Gypsy				
+STALKER4	2	STALKER4_I	Stalker	retro-LTR	LTR	Gypsy	Stalker	93	99	maps to multiple
+STALKER4	2	STALKER4_I	Stalker4	retro-LTR	LTR	Gypsy	Stalker4	100	98	maps to multiple
+STALKER4	1	STALKER4_LTR	Stalker	retro-LTR	LTR	Gypsy	Stalker	100	99.75	maps to multiple
+STALKER4	1	STALKER4_LTR	Stalker4	retro-LTR	LTR	Gypsy	Stalker4	100	99.5	maps to multiple
+Stalker2	2	Stalker2_I	Stalker2	retro-LTR	LTR	Gypsy				
+Stalker2	1	Stalker2_LTR	Stalker2	retro-LTR	LTR	Gypsy				
+Stalker3	1	Stalker3_LTR	Stalker3	retro-LTR	LTR	Gypsy				
+TABOR	2	TABOR_I	Tabor	retro-LTR	LTR	Gypsy				
+TABOR	1	TABOR_LTR	Tabor	retro-LTR	LTR	Gypsy				
+TIRANT	2	TIRANT_I	Tirant	retro-LTR	LTR	Gypsy				
+TIRANT	1	TIRANT_LTR	Tirant	retro-LTR	LTR	Gypsy				
+TOM	2	TOM_I	Tom1	retro-LTR	LTR	Gypsy				
+TOM	1	TOM_LTR	NA	NA	NA	NA	DNTOMRETA	100	100	*Not in TIDAL
+TRANSPAC	2	TRANSPAC_I	Transpac	retro-LTR	LTR	Gypsy				
+TRANSPAC	1	TRANSPAC_LTR	Transpac	retro-LTR	LTR	Gypsy				
+TV1I	NA	TV1I	NA	NA	NA	NA	Tv1	100	100	*Not in TIDAL
+TV1LTR	1	TV1LTR	NA	NA	NA	NA	Tv1	100	100	*Not in TIDAL
+Ulysses	2	Ulysses_I	NA	NA	NA	NA	DVULYSS	100	100	*Not in TIDAL
+Ulysses	1	Ulysses_LTR	NA	NA	NA	NA	DVULYSS	100	100	*Not in TIDAL
+ZAM	2	ZAM_I	ZAM	retro-LTR	LTR	Gypsy				
+ZAM	1	ZAM_LTR	ZAM	retro-LTR	LTR	Gypsy				
+BATUMI	2	BATUMI_I	GATE	retro-LTR	LTR	Pao				
+BATUMI	1	BATUMI_LTR	GATE	retro-LTR	LTR	Pao				
+BEL	2	BEL_I	3S18	retro-LTR	LTR	Pao				
+BEL	1	BEL_LTR	3S18	retro-LTR	LTR	Pao				
+DIVER2	2	DIVER2_I	diver2	retro-LTR	LTR	Pao				
+DIVER2	1	DIVER2_LTR	diver2	retro-LTR	LTR	Pao				
+DIVER	2	DIVER_I	diver	retro-LTR	LTR	Pao				
+DIVER	1	DIVER_LTR	diver	retro-LTR	LTR	Pao				
+MAX	2	MAX_I	Max-element	retro-LTR	LTR	Pao				
+MAX	1	MAX_LTR	Max-element	retro-LTR	LTR	Pao				
+NINJA	2	NINJA_I	aurora-element	retro-LTR	LTR	Pao				
+NINJA	1	NINJA_LTR	aurora-element	retro-LTR	LTR	Pao				
+ROOA	2	ROOA_I	rooA	retro-LTR	LTR	Pao				
+ROOA	1	ROOA_LTR	rooA	retro-LTR	LTR	Pao				
+ROO	2	ROO_I	roo	retro-LTR	LTR	Pao				
+ROO	1	ROO_LTR	roo	retro-LTR	LTR	Pao				
+TRAM	2	TRAM_I	NA	NA	NA	NA	DMTRAM	100	100	*Not in TIDAL
+TRAM	1	TRAM_LTR	NA	NA	NA	NA				
+NTS_DM	NA	NTS_DM	NA	NA	NA	NA				
+Helitron1_DM	NA	Helitron1_DM	Helitron	Helitron	RC	Helitron				
+DGRSAT1	NA	DGRSAT1	NA	NA	NA	NA	NA			
+DGYSAT1	NA	DGYSAT1	NA	NA	NA	NA	NA			
+DMSAT6	NA	DMSAT6	NA	NA	NA	NA	NA			
+DSAT	NA	DSAT	NA	NA	NA	NA	NA			
+DTSAT1	NA	DTSAT1	NA	NA	NA	NA	NA			
+HETRP_DM	NA	HETRP_DM	NA	NA	NA	NA	NA			
+RSP	NA	RSP	NA	NA	NA	NA	NA			
+SAR_DM	NA	SAR_DM	NA	NA	NA	NA	NA			
+ALA_DM	NA	ALA_DM	NA	NA	NA	NA	NA			
+ALUII_DM	NA	ALUII_DM	NA	NA	NA	NA	NA			
+ARS406_DM	NA	ARS406_DM	NA	NA	NA	NA	NA			
+AY1_DH	NA	AY1_DH	NA	NA	NA	NA	NA			
+DMRP1	NA	DMRP1	NA	NA	NA	NA	NA			
+DMRPR	NA	DMRPR	NA	NA	NA	NA	NA			
+DMR_DV	NA	DMR_DV	NA	NA	NA	NA	NA			
+FTZ_DM	NA	FTZ_DM	NA	NA	NA	NA	NA			
+FUSHI_DM	NA	FUSHI_DM	NA	NA	NA	NA	NA			
+TLD1	NA	TLD1	412	retro-LTR	LTR	Gypsy				
+TLD2	NA	TLD2	TLD2	retro-LTR	LTR	Gypsy				
+XDMR	NA	XDMR	NA	NA	NA	NA	NA			
+XDMR_DM	NA	XDMR_DM	NA	NA	NA	NA	NA			
+Transib5	NA	Transib5	Transib5	NA	DNA	CMC-Transib				
+TAHRE	NA	TAHRE	TAHRE	retro-Non-LTR	LINE	Jockey				
+FROGGER	2	FROGGER_I	frogger	retro-LTR	LTR	Copia				
+FROGGER	1	FROGGER_LTR	frogger	retro-LTR	LTR	Copia				
+QUASIMODO2	2	QUASIMODO2-I_DM	McClintock	retro-LTR	LTR	Gypsy				
+QUASIMODO2	1	QUASIMODO2-LTR_DM	McClintock	retro-LTR	LTR	Gypsy				
+Galileo_DM	NA	Galileo_DM	NA	NA	NA	NA	NA			
+Chimpo	1	Chimpo_LTR	Chimpo	retro-LTR	LTR	Gypsy				
+Chimpo	2	Chimpo_I	Chimpo	retro-LTR	LTR	Gypsy				
+Copia1	2	Copia1-I_DM	Copia1_DM	retro-LTR	LTR	Copia				
+Copia1	1	Copia1-LTR_DM	Copia1_DM	retro-LTR	LTR	Copia				
+Gypsy1	1	Gypsy1-LTR_DM	springer	retro-LTR	LTR	Gypsy				
+Gypsy2	2	Gypsy2-LTR_DM	HMS-Beagle2	retro-LTR	LTR	Gypsy				
+Gypsy1	2	Gypsy1-I_DM	springer	retro-LTR	LTR	Gypsy				
+Gypsy2	4	Gypsy2-I_DM	HMS-Beagle2	retro-LTR	LTR	Gypsy				
+Bica	1	Bica_LTR	Bica	retro-LTR	LTR	Gypsy				
+Chouto	2	Chouto_I	Chouto	retro-LTR	LTR	Gypsy				
+Bica	2	Bica_I	Bica	retro-LTR	LTR	Gypsy				
+Chouto	1	Chouto_LTR	Chouto	retro-LTR	LTR	Gypsy				
+SAR2_DM	NA	SAR2_DM	NA	NA	NA	NA	NA			
+Mariner-1_Dro	NA	Mariner-1_Dro	NA	NA	NA	NA	NA			
+Mariner-2_Dro	NA	Mariner-2_Dro	NA	NA	NA	NA	NA			
+Mariner-3_Dro	NA	Mariner-3_Dro	NA	NA	NA	NA	NA			
+Jockey-1_Dro	NA	Jockey-1_Dro	NA	NA	NA	NA	NA			
+TART-A	NA	TART-A	NA	NA	NA	NA	TART-A	100	100	in_tidal
+MICROPIALIKE	2	MICROPIALIKE_I	NA	NA	NA	NA	NA			
+MICROPIALIKE	1	MICROPIALIKE_LTR	NA	NA	NA	NA	NA			

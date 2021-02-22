@@ -1,0 +1,6 @@
+channels:
+- conda-forge
+- bioconda
+- defaults
+dependencies:
+- unzip=6.0
