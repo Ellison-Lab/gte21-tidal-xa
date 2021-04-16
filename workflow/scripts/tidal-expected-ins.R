@@ -41,23 +41,10 @@ sizes <- read_tsv(snakemake@input[['sizes']],col_names = c('Chr','Chr_len'))
 
 # sum autosomes, no chrom4 because ancient sex chrom
 sizes <- sizes %>%
-  #filter(Chr!='chr4') %>%
+  filter(Chr!='chr4') %>%
   mutate(Chr_type = ifelse(!Chr %in% c("chrX",'chrY'),'autosome',Chr)) %>%
   group_by(Chr_type) %>%
   summarize(Chr_len = sum(Chr_len))
-
-ins <- bind_rows(DGRP = dgrp_ins, .id = 'cohort')
-
-ins <- GRanges(ins) %>%
-  split(.,paste(.$cohort,.$TE,sep="^")) %>%
-  as.list() %>%
-  map(~GenomicRanges::reduce(.)) %>%
-  GRangesList() %>%
-  as_tibble() %>%
-  separate(group_name,into=c('cohort','TE'),sep = '\\^') %>%
-  dplyr::select(-group) %>%
-  dplyr::rename(Chr = seqnames)
-
 
 # TART/A/B/C appear to be inconsistently reconciled by TIDAL annotation.
 # I will make sure that my top-te mod remains correct by manually changing
@@ -72,25 +59,36 @@ lookup <- lookup %>%
 lookup <- lookup %>%
   mutate(Flybase_name = ifelse(merged_te == 'TART-C','TART-C',Flybase_name))
 
+#rename of stalker3t to stalker3: https://github.com/bergmanlab/transposons/blob/master/current/transposon_sequence_set.readme.txt
+
+lookup <- lookup %>%
+  mutate(Flybase_name = ifelse(merged_te == 'Stalker3','Stalker3T',Flybase_name))
+
+lookup <- lookup %>%
+  mutate(Flybase_name = ifelse(merged_te == 'TLD2','TLD2_LTR',Flybase_name))
+
+ins <- ins %>%
+  mutate(TE = ifelse(TE=="jockey","Jockey",TE))
+
 # only include discoverable TEs (ie TEs that remain in our scRNA dataset)
 ins <- ins %>% filter(TE %in% lookup$Flybase_name)
+
 
 # only consider DGRP
 # do not consider 4, which may have sex chrom origins
 sex_auto_ratio_df <- ins %>%
-  filter(cohort=='DGRP') %>%
   filter(Chr!='chr4')
 
 # count insertions
-sex_auto_ratio_df <- group_by(sex_auto_ratio_df, cohort,TE, Chr) %>%
+sex_auto_ratio_df <- group_by(sex_auto_ratio_df, TE, Chr) %>%
   tally() %>%
   ungroup() %>%
-  complete(cohort, Chr,TE,fill=list(n=0)) %>%
+  complete(Chr,TE,fill=list(n=0)) %>%
   mutate_at(vars(Chr),as.character)
 
 # normalize to length
 sex_auto_ratio_df <- mutate(sex_auto_ratio_df, Chr_type = ifelse(!Chr %in% c("chrX",'chrY'),'autosome',Chr)) %>%
-  group_by(cohort, TE,Chr_type) %>%
+  group_by(TE,Chr_type) %>%
   summarize(n=sum(n)) %>%
   left_join(sizes) %>%
   mutate(ins_per_mb = n/(Chr_len/1e6)) %>%
@@ -98,20 +96,18 @@ sex_auto_ratio_df <- mutate(sex_auto_ratio_df, Chr_type = ifelse(!Chr %in% c("ch
   dplyr::select(-Chr_len,-n) %>%
   spread(Chr_type,ins_per_mb)
 
-# filter to include TEs with some insertional activity on Y, in males
-sex_auto_ratio_df <- sex_auto_ratio_df %>%
-  filter(chrY > 0) %>%
-  mutate(chrX_Auto_ratio = chrX/autosome,chrY_Auto_ratio = chrY/autosome) %>%
-  dplyr::select(cohort,TE,chrX_Auto_ratio,chrY_Auto_ratio) %>%
+sex_auto_ratio_df2 <- sex_auto_ratio_df %>%
+  #filter(chrY > 0) %>%
+  filter((autosome) > 0 & (chrX) > 0) %>%
+  mutate(chrX_Auto_ratio = (chrX)/(autosome)) %>%
+  dplyr::select(TE,chrX_Auto_ratio) %>%
   mutate(is_top_mod = TE %in% top_mod_df$Flybase_name) %>%
-  gather(comparison,ratio,-TE, -cohort,-is_top_mod)
+  gather(comparison,ratio,-TE, -is_top_mod)
 
-sex_auto_ratio_df <- sex_auto_ratio_df %>%
+sex_auto_ratio_df2 <- sex_auto_ratio_df2 %>%
   dplyr::rename(GEP = 'is_top_mod') %>%
   mutate(GEP = ifelse(GEP,'TEP','other')) %>%
-  filter(comparison=='chrX_Auto_ratio')
-
-sex_auto_ratio_df <- sex_auto_ratio_df %>%
+  filter(comparison=='chrX_Auto_ratio') %>%
   mutate(group = snakemake@params[['group']])
 
-write_csv(sex_auto_ratio_df, snakemake@output[[1]])
+write_csv(sex_auto_ratio_df2, snakemake@output[[1]])
