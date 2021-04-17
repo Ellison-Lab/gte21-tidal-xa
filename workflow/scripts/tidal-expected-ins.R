@@ -6,14 +6,11 @@ options(stringsAsFactors = F)
 import_tidal <- function(x) {
   z <- paste0(x,"/*result/*Inserts_Annotated.txt")
   map_df(Sys.glob(z), read_tsv) %>%
-  mutate(strand = as.character(sign(TE_coord_end - TE_coord_start))) %>%
-  mutate(strand=ifelse(strand > 0 ,'+','-')) %>%
-  dplyr::select(Chr,Chr_coord_5p,Chr_coord_3p,strand,TE) %>%
-  distinct() %>%
-  dplyr::rename(start = Chr_coord_5p, end=Chr_coord_3p)
+    dplyr::select(Chr,TE, loci_code) %>%
+    distinct()
 }
 
-dgrp_ins <- import_tidal(snakemake@input[['dgrp']])
+ins <- import_tidal(snakemake@input[['dgrp']])
 
 mods <- jsonlite::read_json(snakemake@input[['geps']])
 
@@ -67,7 +64,7 @@ lookup <- lookup %>%
 lookup <- lookup %>%
   mutate(Flybase_name = ifelse(merged_te == 'TLD2','TLD2_LTR',Flybase_name))
 
-ins <- dgrp_ins %>%
+ins <- ins %>%
   mutate(TE = ifelse(TE=="jockey","Jockey",TE))
 
 # only include discoverable TEs (ie TEs that remain in our scRNA dataset)
