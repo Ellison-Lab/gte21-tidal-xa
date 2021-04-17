@@ -67,7 +67,7 @@ lookup <- lookup %>%
 lookup <- lookup %>%
   mutate(Flybase_name = ifelse(merged_te == 'TLD2','TLD2_LTR',Flybase_name))
 
-ins <- ins %>%
+ins <- dgrp_ins %>%
   mutate(TE = ifelse(TE=="jockey","Jockey",TE))
 
 # only include discoverable TEs (ie TEs that remain in our scRNA dataset)
